@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #eee;
+}
+
+header {
+  height: 38px;
+  width: 100%;
+  display: flex;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 29, 0.22);
+  width: 100%;
+}
+
+header ul li {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 16px;
+}
+
+h1 {
+  font-size: 14px;
+  color: #999;
+  text-align: left;
+  width: 340px;
+  padding: 10px 20px 6px 20px;
+}
+
+.dados {
+  color: #ccc;
+  font-weight: bold;
+  background-color: white;
+  margin: 0px 10px 20px 10px;
+  padding: 12px 10px 25px 10px;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 29, 0.22);
+  border-radius: 3px;
+}
+
+.container {
+  background-color: #eee;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.container label {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  line-height: 14px;
+  color: #ccc;
+}
+
+.total {
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  align-items: center;
+  margin: 10px;
+}
+
+.total ul {
+  padding: 14px;
+}
+
+.total ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  line-height: 17px;
+}
+
+.total ul li:nth-child(3) {
+  margin-bottom: 16px;
+}
+
+button {
+  font-size: 20px;
+  padding: 18px 0;
+  width: 100%;
+  font-weight: 700;
+  border-radius: 3px;
+  background-color: #ff6c00;
+  box-shadow: inset 0 -3px 0 0 #d45a00, 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  color: #eee;
+  border: none;
+  cursor: pointer;
+}
+
+.nav_item {
+  color: #ccc;
+}
+
+.nav_item--selected {
+  color: #ff7800;
+  font-weight: bold;
+}
+
+.nav_produtos--highlighted {
+  color: #ff7800;
+}
+
+.nav_produtos--bold {
+  font-weight: bold;
+}
+
+#numero_cartao {
+  width: 320px;
+  height: 45px;
+}
+
+#nome_titular {
+  width: 320px;
+  height: 45px;
+}
+
+#data_validade {
+  width: 160px;
+  height: 45px;
+}
+
+#cvv {
+  width: 140px;
+  height: 45px;
+}
+
+.main_section {
+  height: 740px;
+  width: 360px;
+  background-color: white;
+}
+
+.background {
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: grid;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 29, 0.22);
+}
+.container input {
+  height: 45px;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #e7e7e7;
+  box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  color: #e0e7ee;
+  padding: 14px;
+}
+
+.dados_cartao_final {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.final_button {
+  margin: 0 10px;
+}

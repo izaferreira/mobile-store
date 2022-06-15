@@ -1,0 +1,17 @@
+{
+  "produto1": {
+    "nome": "loreal",
+    "imagem": "../../sensc.png",
+    "precos": 50
+  },
+  "produto2": {
+    "nome": "perfume",
+    "imagem": "../../sensc.png",
+    "precos": 40
+  },
+  "produto3": {
+    "nome": "mascara",
+    "imagem": "../../sensc.png",
+    "precos": 30
+  }
+}

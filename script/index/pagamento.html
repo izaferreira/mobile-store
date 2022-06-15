@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/belezanaweb2.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="background">
+        <div class="main_section">
+            <header>
+
+                <ul>
+                    <li class="nav_item">SACOLA</li>
+                    <li class="nav_item nav_item--selected">PAGAMENTO</li>
+                    <li class="nav_item">CONFIRMAÇÃO</li>
+                </ul>
+
+            </header>
+            <div class="container">
+                <h1>CARTÃO DE CRÉDITO</h1>
+                <div class="dados">
+                    <label for="numero_cartao">Número do cartão</label><br>
+                    <input type id="numero_cartao" name="numero_cartao" placeholder="____.____.____.____" required>
+                    <label for="nome_titular">Nome do Titular:</label><br>
+                    <input type id="nome_titular" name="nome_titular" placeholder="Como no cartão" required>
+                    <section class="dados_cartao_final">
+                        <label for="data_validade">Validade (mês/ano):<br>
+                            <input type="text" id="data_validade" name="data_validade" placeholder="__/____ " required>
+                        </label>
+                        <label for="cvv">CVV:<br>
+                            <input type id="cvv" name="cvv" placeholder="_ _ _" required>
+                        </label>
+                    </section>
+                </div>
+                <div class="total">
+                    <ul>
+                        <li class="nav_produtos"><span>PRODUTOS</span><span>R$600,00</span></li>
+                        <li class="nav_produtos"><span>FRETE</span><span>R$5,30</span></li>
+                        <li class="nav_produtos--highlighted"><span>DESCONTO</span><span>- R$ 30,00</span>
+                        <li class="nav_produtos--bold"></span>TOTAL<span>RS$ 600,10</span></li>
+                    </ul>
+                </div>
+                <div class="final_button">
+                    <button>FINALIZAR O PEDIDO</button>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
